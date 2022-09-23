@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216deg 55% 11%);
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    background-color: hsl(214deg 52% 16%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 5px hsl(216deg 70% 12%);
+}
+
+.img {
+    background-image: url(../img/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin: 15px;
+}
+
+.img-title {
+    color: #ebebd1;
+    margin-left: 15px;
+    font-family: monospace;
+}
+
+.img-para {
+    margin: 10px 10px 20px 15px;
+    color: silver;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.current {
+    font-family: monospace;
+    color: aqua;
+    font-size: 20px;
+}
+
+.fa-regular {
+    margin-left: 5px;
+    color: aqua;
+    font-size: 15px;
+    cursor: text;
+}
+
+.offer {
+    font-family: monospace;
+    color: silver;
+    font-size: 15px;
+}
+
+.fa-solid {
+    color: silver;
+    font-size: 10px;
+    cursor: text;
+}
+
+.hr {
+    width: 90%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #213958;
+}
+
+.owner {
+    width: 20px;
+    height: 20px;
+}
+
+.fa-solid.fa-user {
+    color: silver;
+    font-size: 20px;
+    margin: 15px 0 0 15px;
+    cursor: text;
+}
+
+.owner-info {
+    color: #213958;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.owner-info span {
+    color: silver;
+    text-transform: uppercase;
+    font-family: monospace;
+}
